@@ -1,0 +1,24 @@
+jtuziemski@mif.pg.gda.pl
+
+kody z programami proszê wysy³aæ w mailu o tytule: imiê_nazwisko_lab_(nr lab)
+
+void ZK2(void)
+{
+	printf("TWOJ KLUCZ PO ZASTOSOWANIU ZK(A):");
+	for(i=0;i<4;i++)
+	{
+	w5[i]=dzielenie4[i];
+	dzielenie4[i]=dzielenie3[i];
+	dzielenie3[i]=w5[i];
+	}
+	for(i=0;i<4;i++)
+	printf("%i",dzielenie1[i]);
+	for(i=0;i<4;i++)
+	printf("%i",dzielenie2[i]);
+	for(i=0;i<4;i++)
+	printf("%i",dzielenie3[i]);
+	for(i=0;i<4;i++)
+	printf("%i",dzielenie4[i]);
+	printf("\n");
+	
+}

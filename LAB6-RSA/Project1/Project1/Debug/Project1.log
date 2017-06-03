@@ -1,0 +1,17 @@
+﻿Build started 17.01.2016 19:54:10.
+     1>Project "C:\Users\pinioss\Desktop\PROJEKTY SKONCZONE!\KRYPTOGRAFIA\LAB6-RSA\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>c:\users\pinioss\desktop\projekty skonczone!\kryptografia\lab6-rsa\project1\project1\source.c(119): warning C4013: 'sito' undefined; assuming extern returning int
+     1>c:\users\pinioss\desktop\projekty skonczone!\kryptografia\lab6-rsa\project1\project1\source.c(148): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\pinioss\desktop\projekty skonczone!\kryptografia\lab6-rsa\project1\project1\source.c(174): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\pinioss\desktop\projekty skonczone!\kryptografia\lab6-rsa\project1\project1\source.c(177): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pinioss\Desktop\PROJEKTY SKONCZONE!\KRYPTOGRAFIA\LAB6-RSA\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pinioss\Desktop\PROJEKTY SKONCZONE!\KRYPTOGRAFIA\LAB6-RSA\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pinioss\Desktop\PROJEKTY SKONCZONE!\KRYPTOGRAFIA\LAB6-RSA\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Source.obj
+         Project1.vcxproj -> C:\Users\pinioss\Desktop\PROJEKTY SKONCZONE!\KRYPTOGRAFIA\LAB6-RSA\Project1\Debug\Project1.exe
+     1>Done Building Project "C:\Users\pinioss\Desktop\PROJEKTY SKONCZONE!\KRYPTOGRAFIA\LAB6-RSA\Project1\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92
